@@ -9,6 +9,10 @@
 
 
  /* /////////////////////////////////////////////// */
+ .post-meta {
+    display: flex;
+ }
+
  .report-module {
     position: relative;
     margin: 30px 0;
@@ -29,14 +33,14 @@
   }
   .report-module .thumbnail {
     background: #009775;
-    height: 500px;
+    height: 300px;
     overflow: hidden;
   }
   .thumbnail {
       padding: 0;
   }
-      
-  .report-module:hover {
+
+  .report-module {
     -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
