@@ -4,24 +4,36 @@
 
 .city {
     display: inline;
-    font-size: 1.75em;
+    font-size: 1.40em;
 }
 
-.city a {
+/* Icons */
+.city span {
+    font-size: 20px;
+}
+
+.city span a {
   color: inherit;
   font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;  
-}
-
-.city span {
-    font-size: 24px;
 }
 
 .company-link {
   font-size: 18px;
 }
 
-.navbar-options a {
-  font-size: 12px !important;
+.section-list li a {
+  padding-right: 7px;
+  padding-left: 7px;
+  display: inline-block;
+  /* float: left; */
+}
+
+.section-option {
+  color: #FFFFFF;
+}
+
+.navbar-option {
+  font-size: 15px;
 }
 
  /* /////////////////////////////////////////////// */
