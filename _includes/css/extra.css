@@ -7,6 +7,22 @@
     font-size: 1.75em;
 }
 
+.city a {
+  color: inherit;
+  font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+.city span {
+    font-size: 24px;
+}
+
+.company-link {
+  font-size: 18px;
+}
+
+.navbar-options a {
+  font-size: 12px !important;
+}
 
  /* /////////////////////////////////////////////// */
  .post-meta {
