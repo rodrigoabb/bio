@@ -8,8 +8,9 @@
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
+        console.log('$anchor: ', $($anchor.attr('href')).offset().top);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - 25 // (substract 25) to fix a discrepancy on y axis
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
