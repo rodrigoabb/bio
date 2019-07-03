@@ -8,7 +8,7 @@
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
-        console.log('$anchor: ', $($anchor.attr('href')).offset().top);
+        // console.log('$anchor: ', $($anchor.attr('href')).offset().top);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 25 // (substract 25) to fix a discrepancy on y axis
         }, 1500, 'easeInOutExpo');
@@ -29,8 +29,9 @@ $(function() {
 
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
+    target: '.navbar-fixed-top',
+    offset: 40,
+});s
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
