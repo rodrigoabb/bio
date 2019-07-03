@@ -37,8 +37,14 @@
 }
 
  /* /////////////////////////////////////////////// */
+.post-content {
+  height: 75%;
+}
+
  .post-meta {
     display: flex;
+    position: absolute;
+    bottom: 10%;
  }
 
  .report-module {
