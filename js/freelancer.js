@@ -31,7 +31,7 @@ $(function() {
 $('body').scrollspy({
     target: '.navbar-fixed-top',
     offset: 40,
-});s
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
