@@ -2,6 +2,10 @@
     display: inline;
 }
 
+.btn {
+  /* padding: 0; */
+}
+
 .city {
     display: inline;
     font-size: 1.40em;
@@ -15,6 +19,41 @@
 .city span a {
   color: inherit;
   font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;  
+}
+
+.contenedor {
+  position: absolute;
+  width: 90%;  
+  bottom: 10%;
+}
+
+.git-button {
+  position: relative;
+  left: 0%;
+  /* float: left; */
+}
+
+.demo-button {
+  /* position: relative; */
+  /* right: 0%; */
+  float: right;
+}
+
+.card-button {
+  padding: 6px 8px;
+}
+
+.comments {
+  /* position: absolute; */
+  float: right;
+  right: 0;
+}
+
+.timestamp {
+  /* position: absolute; */
+  float: left;
+  left: 0;
+  margin: 0 10px 0 0;
 }
 
 .company-link {
@@ -42,8 +81,9 @@
 }
 
  .post-meta {
-    display: flex;
+    /* display: flex; */
     position: absolute;
+    width: 90%;
     bottom: 10%;
  }
 
@@ -139,9 +179,10 @@
     margin: 30px 0 0;
     color: #999999;
   }
-  .report-module .post-content .post-meta .timestamp {
+  .report-module .post-content .post-meta {
     margin: 0 10px 0 0;
   }
+  
   .btn-primary {
     color: #fff;
     text-decoration: none;
