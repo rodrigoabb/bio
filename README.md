@@ -1,8 +1,10 @@
-## Intro
+# Introduction
 
-This is an online one-page bio with information about myself, experience, downloadable résumé and portfolio. Was based on Chuckgroom's one and it's a really good tool and easy to use for people who wants to create a personal website.
+This is an online one-page bio with information about myself, experience, downloadable résumé and portfolio. It's based on Chuckgroom's project (details below) and it's a really good tool and easy to implement!
 
-## Demo
+It's made with Jekyll (Ruby) and hosted on Github Pages. Again, it's a really amazing way for people to create a personal website.
+
+## Live Demo
 
 To view this in action, go [here](https://rodrigoabb.github.io/bio/)
 
@@ -13,19 +15,19 @@ If you want to base your own One Page Bio on this one, you just have to:
 - Install a full Ruby development environment
 - Install Jekyll and bundler gems
 ```sh
-$ gem install jekyll bundler
+    gem install jekyll bundler
 ```
 - Create a new Jekyll site at ./myblog
 ```sh
-$ jekyll new myblog
+    jekyll new myblog
 ```
 - Change into your new directory
 ```sh
-cd myblog
+    cd myblog
 ```
 - Build the site and make it available on a local server
 ```sh
-bundle exec jekyll serve
+    bundle exec jekyll serve
 ```
 - Now browse to http://localhost:4000
 
