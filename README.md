@@ -12,24 +12,24 @@ To view this in action, go [here](https://rodrigoabb.github.io/bio/)
 
 If you want to base your own One Page Bio on this one, you just have to:
 
-- Install a full Ruby development environment
-- Install Jekyll and bundler gems
+1) Install a full Ruby development environment
+2) Install Jekyll and bundler gems
 ```sh
     gem install jekyll bundler
 ```
-- Create a new Jekyll site at ./myblog
+3) Create a new Jekyll site at ./myblog
 ```sh
     jekyll new myblog
 ```
-- Change into your new directory
+4) Change into your new directory
 ```sh
     cd myblog
 ```
-- Build the site and make it available on a local server
+5) Build the site and make it available on a local server
 ```sh
     bundle exec jekyll serve
 ```
-- Now browse to http://localhost:4000
+6) Now browse to http://localhost:4000
 
 (Check [here](https://jekyllrb.com/docs/))
 
