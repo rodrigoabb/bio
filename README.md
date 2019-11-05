@@ -1,14 +1,37 @@
-This is an example one-pager site that prospective job-seekers can use to quickly
-highlight their accomplishments and make an introduction. It can be hosted for free using
-GitHub Pages (as a Jekyll page).
+## Intro
 
-This is based on a heavily pared-down version Jerome Lachaud's [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme).
-Jerome's original theme is well-suited for designers to easily assemble a portfolio site of their visual work; this
-is a prose-centric version tailored to software developers. [formspree](http://formspree.io/) is used for the contact form.
+This is an online one-page bio with information about myself, experience, downloadable résumé and portfolio. Was based on Chuckgroom's one and it's a really good tool and easy to use for people who wants to create a personal website.
 
 ## Demo
 
-View an example one-pager [here](http://chuckgroom.com/onepage-bio/)
+To view this in action, go [here](https://rodrigoabb.github.io/bio/)
+
+## Instructions
+
+If you want to base your own One Page Bio on this one, you just have to:
+
+- Install a full Ruby development environment
+- Install Jekyll and bundler gems
+```sh
+$ gem install jekyll bundler
+```
+- Create a new Jekyll site at ./myblog
+```sh
+$ jekyll new myblog
+```
+- Change into your new directory
+```sh
+cd myblog
+```
+- Build the site and make it available on a local server
+```sh
+bundle exec jekyll serve
+```
+- Now browse to http://localhost:4000
+
+(Check [here](https://jekyllrb.com/docs/))
+
+For more details on Jekyll, read the [documentation](http://jekyllrb.com/).
 
 ## How to use
 
@@ -17,10 +40,7 @@ View an example one-pager [here](http://chuckgroom.com/onepage-bio/)
  - Edit `_config.yml` to give your name, email address, social media contacts, etc. You can also update the color scheme.
  - Edit content in `/_includes/about_me.html` and `/_includes/interests.html`
 
-## Screenshot
 
-![screenshot](https://raw.githubusercontent.com/chuckgroom/onepage-bio/master/screenshot.png)
+## Special thanks
 
-## Jekyll
-
-For more details on Jekyll, read the [documentation](http://jekyllrb.com/).
+This is based on [One Page Bio](https://github.com/chuckgroom/onepage-bio) from Chuckgroom, so thanks to him!!
