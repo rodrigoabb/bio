@@ -35,6 +35,10 @@
   float: right;
 }
 
+.disable-button {
+  pointer-events: none;
+}
+
 .card-button {
   padding: 6px 8px;
 }
